@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your skills and projects with a customizable portfolio designed for web and WordPress developers, helping you attract clients and job opportunities.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
