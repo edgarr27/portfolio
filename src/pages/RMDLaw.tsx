@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import RMDLawImage from "/src/imports/RMD_Law_Section.png";
 
 const contributions = [
   {
@@ -74,7 +75,7 @@ export default function RMDLaw() {
       <div className="px-8 max-w-5xl mx-auto mb-16">
         <div className="rounded overflow-hidden border border-[#1a1a1a] bg-[#111]">
           <img
-            src="/src/imports/RMD_Law_Section.png"
+            src={RMDLawImage}
             alt="RMD Law website screenshot"
             className="w-full object-cover"
           />
