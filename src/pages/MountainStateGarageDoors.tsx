@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import MountainStateImage from "/src/imports/Mountain_State_Garage_Doors_Section.png";
 
 const contributions = [
   {
@@ -68,7 +69,7 @@ export default function MountainStateGarageDoors() {
       <div className="px-8 max-w-5xl mx-auto mb-16">
         <div className="rounded overflow-hidden border border-[#1a1a1a] bg-[#111]">
           <img
-            src="/src/imports/Mountain_State_Garage_Doors_Section.png"
+            src= {MountainStateImage}
             alt="MountainState Garage Doors website screenshot"
             className="w-full object-cover"
           />

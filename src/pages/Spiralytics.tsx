@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import SpiralyticsImage from "/src/imports/Spiralytics_Section.png";
 
 const contributions = [
   {
@@ -68,7 +69,7 @@ export default function Spiralytics() {
       <div className="px-8 max-w-5xl mx-auto mb-16">
         <div className="rounded overflow-hidden border border-[#1a1a1a] bg-[#111]">
           <img
-            src="/src/imports/Spiralytics_Section.png"
+            src={SpiralyticsImage}
             alt="Spiralytics website screenshot"
             className="w-full object-cover"
           />
