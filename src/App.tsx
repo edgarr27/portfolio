@@ -1,5 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import MountainStateImage from "../src/imports/Mountain_State_Garage_Doors_Section.png";
+import RMDLawImage from "../src/imports/RMD_Law_Section.png";
+import SpiralyticsImage from "../src/imports/Spiralytics_Section.png";
+import ZplatzImage from "../src/imports/Zplatz_Section.png";
 
 const nav = ["Work", "Skills", "About", "Contact"];
 
@@ -11,7 +15,7 @@ const projects = [
     year: "2024",
     desc: "Corporate website for a law firm, designed to showcase legal services, firm expertise, and information for prospective clients.",
     tags: ["WordPress", "Elementor", "HTML/CSS", "JavaScript"],
-    img: "/src/imports/RMD_Law_Section.png",
+    img: RMDLawImage,
     color: "#b8f542",
   },
   {
@@ -28,7 +32,7 @@ const projects = [
       "PHP 8+",
       "Custom Themes",
     ],
-    img: "/src/imports/Mountain_State_Garage_Doors_Section.png",
+    img: MountainStateImage,
     color: "#f5a842",
   },
   {
@@ -38,7 +42,7 @@ const projects = [
     year: "2024",
     desc: "Corporate website for a digital marketing agency, showcasing SEO, content marketing, and digital marketing services for businesses.",
     tags: ["WordPress", "Elementor", "HTML/CSS", "JavaScript", "PHP 8+"],
-    img: "/src/imports/Spiralytics_Section.png",
+    img: SpiralyticsImage,
     color: "#42a8f5",
   },
   {
@@ -48,7 +52,7 @@ const projects = [
     year: "2025",
     desc: "AI-powered 3D visualization platform that transforms video footage into immersive virtual environments and interactive experiences.",
     tags: ["React", "Next.js", "Supabase", "TypeScript", "Tailwind CSS"],
-    img: "/src/imports/Zplatz_Section.png",
+    img: ZplatzImage,
     color: "#c542f5",
   },
 ];
