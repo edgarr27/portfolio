@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import MountainStateImage from "./src/imports/Mountain_State_Garage_Doors_Section.png";
-import RMDLawImage from "./src/imports/RMD_Law_Section.png";
-import SpiralyticsImage from "./src/imports/Spiralytics_Section.png";
-import ZplatzImage from "./src/imports/Zplatz_Section.png";
+import MountainStateImage from "../src/imports/Mountain_State_Garage_Doors_Section.png";
+import RMDLawImage from "../src/imports/RMD_Law_Section.png";
+import SpiralyticsImage from " ../src/imports/Spiralytics_Section.png";
+import ZplatzImage from "../src/imports/Zplatz_Section.png";
 
 const nav = ["Work", "Skills", "About", "Contact"];
 
